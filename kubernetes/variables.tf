@@ -15,7 +15,8 @@ variable "environment_class" {
 
 variable "user_tags" {
     type = list(string)
-    default = ["sbx", "us-west1"]
+    default = []
+    nullable = true
 }
 
 variable "location" {
